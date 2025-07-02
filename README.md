@@ -66,9 +66,15 @@ Connect an FTDI FT4232H or equivalent USB-to-UART adapter to the debug header. A
 
 ## Acknowledgments
 
-- [Bitaxe](https://github.com/skot/bitaxe) – foundational open hardware Bitcoin miner
-- [Bitcrane](https://bitcointalk.org/index.php?topic=951507.0) – early PCIe-based multi-ASIC miner design
+This project draws inspiration and technical insight from several open-source mining hardware efforts:
 
+- [Bitaxe](https://github.com/skot/bitaxe) – foundational open hardware Bitcoin miner  
+- [NerdAxe](https://github.com/BitMaker-hub/NerdAxe) – compact ESP32-based BM1370 miner 
+- [NerdOCTAXE-Gamma](https://github.com/5toliv/NerdOCTAXE-Gamma) – 8‑ASIC miner derived from NerdQaxe 
+- [NerdEKO‑Gamma](https://github.com/phil31/NerdEKO-Gamma) – ESP32-based miner reference design   
+- [Bitcrane](https://bitcointalk.org/index.php?topic=951507.0) – USB antminer control board  design
+
+We thank these creators for their contributions to the open-source mining community.
 ---
 
 ## Contact / Collaboration
