@@ -1,0 +1,11 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PCIexpress")(type "KiCad")(uri "${KIPRJMOD}/../Library/PCIexpress.pretty")(options "")(descr ""))
+  (lib (name "353180620")(type "KiCad")(uri "C:/Users/aathe/Desktop/PCIexpress-KiCad-master/353180620.pretty")(options "")(descr ""))
+  (lib (name "BM1370")(type "KiCad")(uri "C:/Users/aathe/Desktop/PCIexpress-KiCad-master/BM1370.pretty")(options "")(descr ""))
+  (lib (name "CSD95472Q5MC")(type "KiCad")(uri "C:/Users/aathe/Desktop/PCIexpress-KiCad-master/CSD95472Q5MC.pretty")(options "")(descr ""))
+  (lib (name "TPS53667RTAR")(type "KiCad")(uri "C:/Users/aathe/Desktop/PCIexpress-KiCad-master/TPS53667RTAR.pretty")(options "")(descr ""))
+  (lib (name "IFLR-4031GC-01-8x10")(type "KiCad")(uri "C:/Users/aathe/Desktop/PCIexpress-KiCad-master/IFLR-4031GC-01-8x10.pretty")(options "")(descr ""))
+  (lib (name "bitcrane")(type "KiCad")(uri "C:/Users/aathe/Desktop/PCIexpress-KiCad-master/bitcrane.pretty")(options "")(descr ""))
+  (lib (name "bitcart")(type "KiCad")(uri "C:/Users/aathe/Desktop/PCIexpress-KiCad-master/bitcart.pretty")(options "")(descr ""))
+)
