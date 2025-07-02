@@ -19,7 +19,7 @@
 
 - **Standard PCIe x4 Form Factor**
   - Easily integrates into modern desktop systems
-  - Powered via PCIe slot with optional external power input
+  - Powered via PCIe slot with external power input
 
 - **12 × BM1370 ASIC Chips**
   - Same chips used in Antminer S19k Pro
