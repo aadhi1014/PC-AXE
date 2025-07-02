@@ -55,7 +55,7 @@
 
 ### UART Connection
 
-Connect an FTDI FT4232H or equivalent USB-to-UART adapter to the debug header. A single UART channel can control all 12 ASICs via a daisy-chained SPI-over-UART protocol.
+Connect an FTDI FT4232H or equivalent USB-to-UART adapter to the debug header. A single UART channel can control all 12 ASICs.
 
 ---
 
