@@ -2,6 +2,9 @@
 
 **PC-AXE** is a compact, PCIe x4-based, open-hardware Bitcoin miner designed to plug directly into desktop computers. Inspired by [Bitaxe](https://github.com/skot/bitaxe), Bitcrane, and professional mining cards, PC-AXE uses twelve BM1370 ASIC chips and a 6-phase high-efficiency buck converter to deliver up to **14.4TH/s** of hashrate at just **200W** power draw.
 
+
+**Note:** PC-AXE is a **work in progress**. Hardware files are being finalized, and firmware development is ongoing. Community contributions and testing feedback are welcome.
+
 ---
 
 ![PC-AXE Top View](./images/top.png)  
