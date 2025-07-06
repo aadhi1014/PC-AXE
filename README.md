@@ -22,7 +22,7 @@
   - Powered via PCIe slot with external power input
 
 - **12 × BM1370 ASIC Chips**
-  - Same chips used in Antminer S19k Pro
+  - Same chips used in Antminer S21
   - Estimated hashrate of ~1.2TH/s per chip
 
 - **6-Phase 180A Buck Converter**
