@@ -61,11 +61,13 @@ Connect an FTDI FT4232H or equivalent USB-to-UART adapter to the debug header. A
 
 ## License
 
-- **Hardware**: [CERN OHL-S v2.0](https://ohwr.org/project/cernohl)  
-  A strongly reciprocal license requiring all derivatives to remain open-source.
-- **Software**: MIT License (planned)
+This hardware design is licensed under the TAPR Open Hardware License – Non-Commercial (OHL-NC).  
+You are free to use, modify, and distribute for **non-commercial purposes**.  
 
----
+**Commercial use requires explicit written permission from the copyright holder.**  
+See the [LICENSE](LICENSE) file for details.
+
+--
 
 ## Acknowledgments
 
