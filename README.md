@@ -61,6 +61,16 @@ Connect an FTDI FT4232H or equivalent USB-to-UART adapter to the debug header. A
 
 ---
 
+## Important License Notice  
+This project was relicensed under the **TAPR Open Hardware License – Non-Commercial (OHL-NC)** on **July 11, 2025**.  
+All clones and forks made **after this date** are subject to **non-commercial use only**.  
+
+**Commercial use, manufacturing, or distribution of this work is strictly prohibited without explicit written permission from the copyright holder.**  
+
+If you cloned this repository *before July 11, 2025*, please contact the author for updated licensing terms.
+
+---
+
 ## License
 
 This hardware design is licensed under the TAPR Open Hardware License – Non-Commercial (OHL-NC).  
