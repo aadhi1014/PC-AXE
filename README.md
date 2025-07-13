@@ -40,8 +40,8 @@
   - Supports daisy-chained UART control for ASICs
 
 - **Design Inspiration**
-  - Derived from Bitaxe (compact USB miner)
-  - Influenced by Bitcrane (PCIe mining cards with BM1384 chips)
+  - Derived from Bitaxe (compact solo miner)
+  - Influenced by Bitcrane
 
 ---
 
