@@ -3,4 +3,5 @@
   (lib (name "PCIexpress")(type "KiCad")(uri "${KIPRJMOD}/../Library/PCIexpress.kicad_sym")(options "")(descr ""))
   (lib (name "353180620")(type "KiCad")(uri "C:/Users/aathe/Desktop/PCIexpress-KiCad-master/353180620/353180620.kicad_sym")(options "")(descr ""))
   (lib (name "bitaxe")(type "KiCad")(uri "C:/Users/aathe/Desktop/PCIexpress-KiCad-master/bitaxe.kicad_sym")(options "")(descr ""))
+  (lib (name "VL805")(type "KiCad")(uri "${KIPRJMOD}/LIBS/VL805.kicad_sym")(options "")(descr ""))
 )

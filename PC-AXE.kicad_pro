@@ -131,23 +131,23 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.075,
+        "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_microvia_diameter": 0.0,
+        "min_microvia_drill": 0.0,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.7,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.0889,
-        "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_through_hole_diameter": 0.25,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -196,9 +196,12 @@
       ],
       "track_widths": [
         0.0,
-        0.0889,
-        0.127,
-        0.2
+        0.2,
+        0.254,
+        0.5,
+        0.8,
+        1.0,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -232,16 +235,24 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
-          "drill": 0.2
-        },
-        {
           "diameter": 0.5,
           "drill": 0.25
         },
         {
-          "diameter": 0.55,
+          "diameter": 0.5,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.8
         }
       ],
       "zones_allow_external_fillets": false,
@@ -263,7 +274,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "no_connect_connected|730250|679450|fc23072c-84e3-4dc5-b968-320f4bfb3ea5|7c80e71d-a3c2-40fc-aff5-ce67a7a97c56|/540dc3bd-590a-41f0-90cd-0aeeeb4ef5ba/33065470-dbb7-4d39-aa86-47ade5123425||",
+        ""
+      ],
+      [
+        "pin_not_driven|1727200|241300|a0d1ee12-da15-478f-b613-f3ada86acb68|00000000-0000-0000-0000-000000000000|/540dc3bd-590a-41f0-90cd-0aeeeb4ef5ba/566ecfb2-dc25-4794-9a6c-e7bc72d06ba6|/540dc3bd-590a-41f0-90cd-0aeeeb4ef5ba/566ecfb2-dc25-4794-9a6c-e7bc72d06ba6|",
+        ""
+      ],
+      [
+        "pin_not_driven|1727200|292100|bb3b3f11-2a03-469a-9cb0-1a246592148c|00000000-0000-0000-0000-000000000000|/540dc3bd-590a-41f0-90cd-0aeeeb4ef5ba/566ecfb2-dc25-4794-9a6c-e7bc72d06ba6|/540dc3bd-590a-41f0-90cd-0aeeeb4ef5ba/566ecfb2-dc25-4794-9a6c-e7bc72d06ba6|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -448,7 +472,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
@@ -469,8 +493,8 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -478,7 +502,7 @@
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
       "unannotated": "error",
-      "unconnected_wire_endpoint": "warning",
+      "unconnected_wire_endpoint": "ignore",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -516,7 +540,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -534,7 +557,6 @@
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.1016,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.0889,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -552,7 +574,6 @@
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.127,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1016,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -570,7 +591,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -763,12 +783,168 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DK",
+          "name": "DK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor",
+          "name": "Distributor",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OrderNr",
+          "name": "OrderNr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "P/N DIGIKEY",
+          "name": "P/N DIGIKEY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "P/N LCSC",
+          "name": "P/N LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "P/N MOUSER",
+          "name": "P/N MOUSER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTNO",
+          "name": "PARTNO",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Puissance",
+          "name": "Puissance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -901,39 +1077,39 @@
     ],
     [
       "09c36074-5dc1-4e76-b9b2-f0cf1813c95c",
-      "BM1370-2"
+      "BM1370-1"
     ],
     [
       "34c4cdb5-715d-4ea5-a381-bd39522ef0e6",
-      "BM1370-3"
+      "BM1370-2"
     ],
     [
       "e95e2ea6-91b6-4bdc-8482-e50ed0e64898",
-      "BM1370-4"
+      "BM1370-3"
     ],
     [
       "f6a87975-44a9-498e-83b9-da2c4f090d1c",
-      "BM1370-5"
+      "BM1370-4"
     ],
     [
       "eec78179-b6ab-42cb-97a4-1dd89e522805",
-      "BM1370-6"
+      "BM1370-5"
     ],
     [
       "2212a41f-52bf-45f7-8ee7-0785063394c9",
-      "BM1370-7"
+      "BM1370-6"
     ],
     [
       "ab0305c7-9e9e-4b5c-b49c-3001eae0113b",
-      "BM1370-8"
+      "BM1370-7"
     ],
     [
       "c4bf6728-9ac3-4560-8713-bf5e0ad0b5f7",
-      "BM1370-9"
+      "BM1370-8"
     ],
     [
       "ccf5e596-9a0f-46d5-8c63-b29ee51dd54f",
-      "BM1370-1"
+      "BM1370-9"
     ],
     [
       "7618f24f-0c47-4834-813b-bcd5297b4b62",

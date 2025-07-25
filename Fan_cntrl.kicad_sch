@@ -2537,16 +2537,6 @@
 		)
 		(uuid "07e0bcbe-6d57-4148-8fa2-9db7f01d31de")
 	)
-	(label "+3.3v"
-		(at 99.695 69.215 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1737d92b-6dfa-440b-81db-3ee0bb245526")
-	)
 	(label "PWM4"
 		(at 121.285 93.345 0)
 		(effects
