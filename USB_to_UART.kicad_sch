@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "2ef090c4-a0f3-4ea6-9a43-e92acd24e520")
 	(paper "A3")
+	(title_block
+		(title "PC-AXE")
+		(company "Author: Aadhi M")
+	)
 	(lib_symbols
 		(symbol "+3V3_1"
 			(power)

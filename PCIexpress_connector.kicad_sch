@@ -5,8 +5,8 @@
 	(uuid "ded0cf89-354f-45a0-a3e3-ec32f297c9d3")
 	(paper "A4" portrait)
 	(title_block
-		(title "PCIexpress_x4_full")
-		(company "Author: Luca Anastasio")
+		(title "PC-AXE")
+		(company "Author: Aadhi M")
 	)
 	(lib_symbols
 		(symbol "PCIexpress:PCIexpress_bracket"
@@ -1574,128 +1574,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3VA"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3VA"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3VA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3.3VA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1948,6 +1826,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f37c4870-1dad-4ba6-a346-eef4aa9778d2")
+	)
+	(no_connect
+		(at 85.09 48.26)
+		(uuid "1c05cff8-df15-49f5-8c75-467378fd7bf6")
 	)
 	(wire
 		(pts
@@ -3634,7 +3516,7 @@
 	)
 	(symbol
 		(lib_id "PCIexpress:PCIexpress_bracket")
-		(at 55.88 273.05 0)
+		(at 69.215 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3642,7 +3524,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d51ada7")
 		(property "Reference" "J1"
-			(at 56.515 271.8816 0)
+			(at 69.85 130.9116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +3533,7 @@
 			)
 		)
 		(property "Value" "PCIexpress_bracket"
-			(at 56.515 274.193 0)
+			(at 69.85 133.223 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,7 +3542,7 @@
 			)
 		)
 		(property "Footprint" "PCIexpress:PCIexpress_bracket_full"
-			(at 55.88 273.05 0)
+			(at 69.215 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +3551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 273.05 0)
+			(at 69.215 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,7 +3560,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 273.05 0)
+			(at 69.215 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,72 +3902,6 @@
 			(project ""
 				(path "/540dc3bd-590a-41f0-90cd-0aeeeb4ef5ba/00000000-0000-0000-0000-00005d508b15"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 85.09 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d51ae9c")
-		(property "Reference" "#PWR02"
-			(at 88.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 81.8642 47.879 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14dc7d52-1f08-4fc6-aa0b-f1ee56a1da57")
-		)
-		(instances
-			(project ""
-				(path "/540dc3bd-590a-41f0-90cd-0aeeeb4ef5ba/00000000-0000-0000-0000-00005d508b15"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)

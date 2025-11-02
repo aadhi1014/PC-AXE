@@ -1,5 +1,20 @@
-07-23 15:03:28 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 674:Plugin executed on: 'win32'
-07-23 15:03:28 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 675:Plugin executed with python version: '3.11.5 (main, Jun 15 2025, 06:45:45) [MSC v.1942 64 bit (AMD64)]'
-07-23 15:03:28 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 676:KiCad build version: 9.0.3
-07-23 15:03:28 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 677:Plugin version: 4.0.1
-07-23 15:03:28 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 678:Frame repr: <wx._core.Frame object at 0x0000023240C6C5E0>
+10-28 17:55:10 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 674:Plugin executed on: 'win32'
+10-28 17:55:10 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 675:Plugin executed with python version: '3.11.5 (main, Sep 17 2025, 01:04:48) [MSC v.1944 64 bit (AMD64)]'
+10-28 17:55:10 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 676:KiCad build version: 9.0.5
+10-28 17:55:10 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 677:Plugin version: 4.0.1
+10-28 17:55:10 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 678:Frame repr: <wx._core.Frame object at 0x000002329B7B8670>
+10-28 17:55:10 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+10-28 17:55:10 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 717:Reference footprint='U27'
+10-28 17:55:15 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 8510-28 18:29:17 kicad_partsplacer-pcm 407:Loading kicad_partsplacer
+10-29 13:41:21 kicad_partsplacer-pcm 407:Loading kicad_partsplacer
+10-28 17:55:15 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 891:Sorted and filtered list:
+['U7', 'U8', 'U9', 'U10', 'U11', 'U12', 'U13', 'U14', 'U15', 'U16', 'U17', 'U18', 'U19', 'U20', 'U21', 'U22', 'U23', 'U24', 'U25', 'U26', 'U27', 'U28', 'U29', 'U30', 'U31']
+10-28 17:55:15 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 376:wx.Colour(240, 240, 240, 255)
+10-28 17:56:02 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 507:'9.299'
+10-28 17:56:02 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 566:Preparing config for reference matrix
+10-28 17:56:02 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 573:Saving config file
+10-28 17:56:02 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 575:Saved the config file
+10-28 17:56:02 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 929:Footprints to place:
+['U17', 'U18', 'U19', 'U20', 'U21', 'U22', 'U23', 'U24', 'U25', 'U26', 'U27', 'U28']
+10-28 17:56:02 com_github_MitjaNemec_PlaceFootprints.place_footprints 427:Starting placing with matrix layout
+10-28 17:56:02 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 999:Placing complete

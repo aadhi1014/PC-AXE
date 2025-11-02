@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "60e145d9-057b-46e1-82d3-cf278fa852b2")
 	(paper "A4")
+	(title_block
+		(title "PC-AXE")
+		(company "Author: Aadhi M")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers

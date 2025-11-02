@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "2b145fd9-885d-4a27-ae02-a0cedea5d146")
 	(paper "A3")
+	(title_block
+		(title "PC-AXE")
+		(company "Author: Aadhi M")
+	)
 	(lib_symbols
 		(symbol "+12V_2"
 			(power)
@@ -10508,7 +10512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EKO_Miner_ASIClib:TPS53667RTAR"
+		(property "Footprint" "TPS53667RTAR:IC_TPS53667RTAR"
 			(at 98.425 140.335 0)
 			(effects
 				(font
@@ -28241,7 +28245,7 @@
 		(instances
 			(project "PC-AXE"
 				(path "/540dc3bd-590a-41f0-90cd-0aeeeb4ef5ba/049cc3a6-36b5-4dee-bdf2-7e5f4e5480ae"
-					(page "7")
+					(page "5")
 				)
 			)
 		)

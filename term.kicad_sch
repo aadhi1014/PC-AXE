@@ -5,8 +5,8 @@
 	(uuid "128a9674-ec2a-4eff-bcb8-6d82ed43586d")
 	(paper "A4")
 	(title_block
-		(title "PCIexpress_x4_full")
-		(company "Author: Luca Anastasio")
+		(title "PC-AXE")
+		(company "Author: Aadhi M")
 	)
 	(lib_symbols
 		(symbol "Device:R"

@@ -274,20 +274,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "no_connect_connected|730250|679450|fc23072c-84e3-4dc5-b968-320f4bfb3ea5|7c80e71d-a3c2-40fc-aff5-ce67a7a97c56|/540dc3bd-590a-41f0-90cd-0aeeeb4ef5ba/33065470-dbb7-4d39-aa86-47ade5123425||",
-        ""
-      ],
-      [
-        "pin_not_driven|1727200|241300|a0d1ee12-da15-478f-b613-f3ada86acb68|00000000-0000-0000-0000-000000000000|/540dc3bd-590a-41f0-90cd-0aeeeb4ef5ba/566ecfb2-dc25-4794-9a6c-e7bc72d06ba6|/540dc3bd-590a-41f0-90cd-0aeeeb4ef5ba/566ecfb2-dc25-4794-9a6c-e7bc72d06ba6|",
-        ""
-      ],
-      [
-        "pin_not_driven|1727200|292100|bb3b3f11-2a03-469a-9cb0-1a246592148c|00000000-0000-0000-0000-000000000000|/540dc3bd-590a-41f0-90cd-0aeeeb4ef5ba/566ecfb2-dc25-4794-9a6c-e7bc72d06ba6|/540dc3bd-590a-41f0-90cd-0aeeeb4ef5ba/566ecfb2-dc25-4794-9a6c-e7bc72d06ba6|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -503,6 +490,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "ignore",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -1028,6 +1016,10 @@
       "sheet5D761043"
     ],
     [
+      "8b86e14c-5002-4688-b858-d3ba1fd8c7c2",
+      "Power_stage0"
+    ],
+    [
       "eb820727-a37f-4a67-ae58-23841c4d7f79",
       "Power_stage1"
     ],
@@ -1042,10 +1034,6 @@
     [
       "00000000-0000-0000-0000-00005dab5272",
       "decap"
-    ],
-    [
-      "8b86e14c-5002-4688-b858-d3ba1fd8c7c2",
-      "Power_stage0"
     ],
     [
       "00000000-0000-0000-0000-00005db8e95f",

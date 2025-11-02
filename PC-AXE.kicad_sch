@@ -5,8 +5,8 @@
 	(uuid "540dc3bd-590a-41f0-90cd-0aeeeb4ef5ba")
 	(paper "A4")
 	(title_block
-		(title "PCIexpress_x4_full")
-		(company "Author: Luca Anastasio")
+		(title "PC-AXE")
+		(company "Author: Aadhi M")
 	)
 	(lib_symbols)
 	(no_connect
