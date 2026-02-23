@@ -1,0 +1,5 @@
+"*.bak\n*.cache\n*.tmp\nsym-lib-table\nfp-info-cache\n*.kicad_prl" 
+PC-AXE-backups/ 
+*.zip 
+PC-AXE_backup_altium.kicad_pcb
+PC-AXE_backup_altium.kicad_pro

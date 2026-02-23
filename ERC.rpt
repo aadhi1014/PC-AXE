@@ -1,0 +1,532 @@
+ERC report (2025-10-29T15:41:24-0400, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(3450 mils, 900 mils): Symbol #PWR03 [+12V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'PCIexpress_x4_full-rescue'
+    ; warning
+    @(3350 mils, 1700 mils): Symbol #PWR01 [+3.3V-power]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(4850 mils, 900 mils): Symbol #PWR05 [+12V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'PCIexpress_x4_full-rescue'
+    ; warning
+    @(4950 mils, 1800 mils): Symbol #PWR07 [+3.3V-power]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'PCIexpress_x4_full-rescue'
+    ; warning
+    @(4950 mils, 1900 mils): Symbol #PWR08 [+3.3V-power]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3450 mils, 4400 mils): Symbol #PWR04 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4850 mils, 4400 mils): Symbol #PWR06 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4750 mils, 4050 mils): Symbol #PWR09 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5750 mils, 4050 mils): Symbol #PWR010 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(950 mils, 1850 mils): Symbol #PWR012 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library '2021-10-17_21-20-06'
+    ; warning
+    @(1950 mils, 1350 mils): Symbol U1 [TLV62568ADRLR]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2650 mils, 1850 mils): Symbol #PWR022 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1350 mils, 3050 mils): Symbol #PWR014 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2000 mils, 3050 mils): Symbol #PWR015 [GND]
+[lib_symbol_mismatch]: Symbol '+1V8' doesn't match copy in library 'power'
+    ; warning
+    @(2550 mils, 2650 mils): Symbol #PWR020 [+1V8]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3300 mils, 1850 mils): Symbol #PWR023 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2550 mils, 3050 mils): Symbol #PWR021 [GND]
+[lib_symbol_mismatch]: Symbol '+1V1' doesn't match copy in library 'power'
+    ; warning
+    @(3950 mils, 1000 mils): Symbol #PWR027 [+1V1]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3650 mils, 1850 mils): Symbol #PWR026 [GND]
+[lib_symbol_mismatch]: Symbol '+1V1' doesn't match copy in library 'power'
+    ; warning
+    @(4500 mils, 1450 mils): Symbol #PWR028 [+1V1]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3600 mils, 3400 mils): Symbol #PWR025 [GND]
+[lib_symbol_mismatch]: Symbol '+1V1' doesn't match copy in library 'power'
+    ; warning
+    @(2150 mils, 4700 mils): Symbol #PWR016 [+1V1]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2150 mils, 5200 mils): Symbol #PWR017 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ASM1042'
+    ; warning
+    @(5950 mils, 2450 mils): Symbol U3 [VL805]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2150 mils, 6500 mils): Symbol #PWR019 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4750 mils, 5950 mils): Symbol #PWR031 [GND]
+[lib_symbol_mismatch]: Symbol 'W25Q32JVZP' doesn't match copy in library 'Memory_Flash'
+    ; warning
+    @(8400 mils, 1650 mils): Symbol U4 [W25Q32JVZP]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(8400 mils, 2050 mils): Symbol #PWR035 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(7300 mils, 6050 mils): Symbol #PWR033 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(10000 mils, 1750 mils): Symbol #PWR039 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3225 mils, 3975 mils): Symbol #PWR0468 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'bitcart'
+    ; warning
+    @(3875 mils, 3475 mils): Symbol U29 [EMC2305-1-AP-TR]
+[lib_symbol_mismatch]: Symbol '+3.3V' doesn't match copy in library 'power'
+    ; warning
+    @(6175 mils, 2225 mils): Symbol #PWR0471 [+3.3V]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(7275 mils, 1925 mils): Symbol #PWR0472 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5625 mils, 3700 mils): Symbol #PWR0480 [GND]
+[lib_symbol_mismatch]: Symbol '+1V8' doesn't match copy in library 'power'
+    ; warning
+    @(6325 mils, 4000 mils): Symbol #PWR0483 [+1V8]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(6025 mils, 5700 mils): Symbol #PWR0481 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'bitcrane'
+    ; warning
+    @(2925 mils, 8100 mils): Symbol U30 [M93C46-WDW6TP]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5125 mils, 7000 mils): Symbol #PWR0477 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'bitcrane'
+    ; warning
+    @(4975 mils, 7800 mils): Symbol Y2 [405C35B12M00000]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'bitcrane'
+    ; warning
+    @(7275 mils, 6250 mils): Symbol U31 [FT4232HQ-REEL]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5150 mils, 8550 mils): Symbol #PWR0478 [GND]
+[lib_symbol_mismatch]: Symbol '+1V8' doesn't match copy in library 'power'
+    ; warning
+    @(10375 mils, 4400 mils): Symbol #PWR0485 [+1V8]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(11250 mils, 5050 mils): Symbol #PWR0486 [GND]
+[lib_symbol_mismatch]: Symbol '+3V3' doesn't match copy in library 'power'
+    ; warning
+    @(2175 mils, 1025 mils): Symbol #PWR0181 [+3V3]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2175 mils, 1525 mils): Symbol #PWR0182 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2375 mils, 2575 mils): Symbol #PWR0186 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'mylib7'
+    ; warning
+    @(2925 mils, 2175 mils): Symbol U14 [TXU0304]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3575 mils, 1475 mils): Symbol #PWR0191 [GND]
+[no_connect_connected]: Pin with 'no connection' type is connected
+    ; warning
+    @(2875 mils, 2675 mils): Symbol U14 Pin 9 [NC, Unconnected, Line]
+    @(2875 mils, 2675 mils): Symbol U14 Pin 6 [NC, Unconnected, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3325 mils, 2575 mils): Symbol #PWR0189 [GND]
+[lib_symbol_mismatch]: Symbol 'ASDMB-xxxMHz' doesn't match copy in library 'Oscillator'
+    ; warning
+    @(2175 mils, 3850 mils): Symbol U13 [ASDMB-xxxMHz]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1425 mils, 4200 mils): Symbol #PWR0180 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2275 mils, 4200 mils): Symbol #PWR0185 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4875 mils, 2175 mils): Symbol #PWR0196 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5225 mils, 4200 mils): Symbol #PWR0197 [GND]
+[lib_symbol_mismatch]: Symbol '+3V3' doesn't match copy in library 'power'
+    ; warning
+    @(2425 mils, 6800 mils): Symbol #PWR0187 [+3V3]
+[lib_symbol_issues]: The symbol library 'bitaxe' was not found at 'C:/Users/aathe/Desktop/PCIexpress-KiCad-master/bitaxe.kicad_sym'.
+    ; warning
+    @(3175 mils, 6950 mils): Symbol U15 [MCP1824]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2425 mils, 7450 mils): Symbol #PWR0188 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'mylib7'
+    ; warning
+    @(3825 mils, 6850 mils): Symbol #U01 [+0V8]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3625 mils, 7450 mils): Symbol #PWR0192 [GND]
+[lib_symbol_mismatch]: Symbol '+3V3' doesn't match copy in library 'power'
+    ; warning
+    @(4675 mils, 6850 mils): Symbol #PWR0194 [+3V3]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3825 mils, 7450 mils): Symbol #PWR0193 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2175 mils, 8425 mils): Symbol #PWR0183 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4675 mils, 7450 mils): Symbol #PWR0195 [GND]
+[lib_symbol_issues]: The symbol library 'bitaxe' was not found at 'C:/Users/aathe/Desktop/PCIexpress-KiCad-master/bitaxe.kicad_sym'.
+    ; warning
+    @(5425 mils, 6950 mils): Symbol U16 [MCP1824]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5875 mils, 7450 mils): Symbol #PWR0199 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(6125 mils, 7450 mils): Symbol #PWR0201 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'mylib7'
+    ; warning
+    @(14775 mils, 1125 mils): Symbol #U02 [+0V8]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(14775 mils, 1325 mils): Symbol #PWR0203 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5550 mils, 1800 mils): Symbol #PWR0213 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'mylib7'
+    ; warning
+    @(3600 mils, 4950 mils): Symbol #U03 [+0V8]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3300 mils, 5350 mils): Symbol #PWR0205 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'mylib7'
+    ; warning
+    @(4650 mils, 4300 mils): Symbol #U04 [+0V8]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4250 mils, 4800 mils): Symbol #PWR0207 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3600 mils, 5350 mils): Symbol #PWR0206 [GND]
+[lib_symbol_issues]: The symbol library 'bitaxe' was not found at 'C:/Users/aathe/Desktop/PCIexpress-KiCad-master/bitaxe.kicad_sym'.
+    ; warning
+    @(5550 mils, 3700 mils): Symbol U17 [BM1370_mode1]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4800 mils, 4800 mils): Symbol #PWR0209 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5550 mils, 4800 mils): Symbol #PWR0215 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4900 mils, 5750 mils): Symbol #PWR0211 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'mylib7'
+    ; warning
+    @(6500 mils, 4300 mils): Symbol #U05 [+0V8]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(6350 mils, 4800 mils): Symbol #PWR0220 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5550 mils, 5750 mils): Symbol #PWR0217 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(6250 mils, 5750 mils): Symbol #PWR0219 [GND]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'mylib7'
+    ; warning
+    @(7200 mils, 4950 mils): Symbol #U06 [+0V8]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(7200 mils, 5350 mils): Symbol #PWR0222 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(7450 mils, 5350 mils): Symbol #PWR0224 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(8150 mils, 4300 mils): Symbol #PWR0225 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(700 mils, 750 mils): Symbol #PWR042 [+12V]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(1050 mils, 775 mils): Symbol #PWR045 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(700 mils, 1200 mils): Symbol #PWR043 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(1400 mils, 750 mils): Symbol #PWR047 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1050 mils, 1225 mils): Symbol #PWR046 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1400 mils, 1200 mils): Symbol #PWR048 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(1750 mils, 750 mils): Symbol #PWR055 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1750 mils, 1200 mils): Symbol #PWR056 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(2250 mils, 750 mils): Symbol #PWR061 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2250 mils, 1200 mils): Symbol #PWR062 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(2600 mils, 750 mils): Symbol #PWR063 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2600 mils, 1200 mils): Symbol #PWR064 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(2950 mils, 750 mils): Symbol #PWR066 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2950 mils, 1200 mils): Symbol #PWR067 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(3300 mils, 775 mils): Symbol #PWR069 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3300 mils, 1225 mils): Symbol #PWR070 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(3650 mils, 775 mils): Symbol #PWR071 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3650 mils, 1225 mils): Symbol #PWR072 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(4000 mils, 775 mils): Symbol #PWR074 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4000 mils, 1225 mils): Symbol #PWR075 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(4350 mils, 800 mils): Symbol #PWR077 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4350 mils, 1225 mils): Symbol #PWR078 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(4650 mils, 775 mils): Symbol #PWR079 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4650 mils, 1225 mils): Symbol #PWR080 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(5000 mils, 750 mils): Symbol #PWR085 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5000 mils, 1200 mils): Symbol #PWR086 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(5350 mils, 750 mils): Symbol #PWR087 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5350 mils, 1200 mils): Symbol #PWR088 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(5650 mils, 750 mils): Symbol #PWR091 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5650 mils, 1200 mils): Symbol #PWR092 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(5975 mils, 750 mils): Symbol #PWR094 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5975 mils, 1200 mils): Symbol #PWR095 [GND]
+[lib_symbol_mismatch]: Symbol 'R_Small' doesn't match copy in library 'Device'
+    ; warning
+    @(1325 mils, 6425 mils): Symbol R17 [R_Small]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'EKO_Miner_ASIClib'
+    ; warning
+    @(3875 mils, 5525 mils): Symbol U6 [TPS53667RTAR]
+[lib_symbol_mismatch]: Symbol 'R_Small' doesn't match copy in library 'Device'
+    ; warning
+    @(1325 mils, 6625 mils): Symbol R18 [R_Small]
+[lib_symbol_mismatch]: Symbol '+3.3V' doesn't match copy in library 'power'
+    ; warning
+    @(6475 mils, 2875 mils): Symbol #PWR0102 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'mylib7'
+    ; warning
+    @(6175 mils, 3675 mils): Symbol #PWR099 [+VRef]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(1450 mils, 8350 mils): Symbol #PWR049 [+12V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'pferdibank-rescue'
+    ; warning
+    @(2300 mils, 8750 mils): Symbol U5 [AP3211-mylib]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1450 mils, 9550 mils): Symbol #PWR050 [GND]
+[lib_symbol_mismatch]: Symbol '+3.3V' doesn't match copy in library 'power'
+    ; warning
+    @(4100 mils, 8750 mils): Symbol #PWR076 [+3.3V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1900 mils, 9550 mils): Symbol #PWR058 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2700 mils, 9550 mils): Symbol #PWR065 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3200 mils, 9550 mils): Symbol #PWR068 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3700 mils, 9550 mils): Symbol #PWR073 [GND]
+[lib_symbol_mismatch]: Symbol '+12V' doesn't match copy in library 'power'
+    ; warning
+    @(7750 mils, 8525 mils): Symbol #PWR0104 [+12V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(6750 mils, 10200 mils): Symbol #PWR0103 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(12550 mils, 4550 mils): Symbol #PWR0106 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(12550 mils, 6150 mils): Symbol #PWR0108 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(13150 mils, 8300 mils): Symbol #PWR0110 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(15600 mils, 3000 mils): Symbol #PWR0112 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(15750 mils, 4900 mils): Symbol #PWR0114 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3650 mils, 3050 mils): Symbol #PWR0140 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4000 mils, 3050 mils): Symbol #PWR0141 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(4350 mils, 3050 mils): Symbol #PWR0143 [GND]
+[lib_symbol_mismatch]: Symbol '+3.3V' doesn't match copy in library 'power'
+    ; warning
+    @(4700 mils, 3950 mils): Symbol #PWR0145 [+3.3V]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'mylib7'
+    ; warning
+    @(4650 mils, 4250 mils): Symbol #REF03 [+VRef]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'mylib7'
+    ; warning
+    @(6000 mils, 3950 mils): Symbol U9 [CSD95472Q5MC]
+
+***** Sheet /PCIexpress_connector/
+
+***** Sheet /PCIexpress_connector/term/
+[multiple_net_names]: Both IN- and OUT- are attached to the same items; IN- will be used in the netlist
+    ; warning
+    @(4850 mils, 3550 mils): Hierarchical Label 'IN-'
+    @(4650 mils, 3550 mils): Hierarchical Label 'OUT-'
+[multiple_net_names]: Both IN+ and OUT+ are attached to the same items; IN+ will be used in the netlist
+    ; warning
+    @(5850 mils, 3550 mils): Hierarchical Label 'IN+'
+    @(5650 mils, 3550 mils): Hierarchical Label 'OUT+'
+
+***** Sheet /USB/
+
+***** Sheet /PCIexpress_connector/sheet5D5DF900/
+
+***** Sheet /POWER/
+[multiple_net_names]: Both +VREF and VREF are attached to the same items; +VREF will be used in the netlist
+    ; warning
+    @(6175 mils, 3675 mils): Symbol #PWR099 Hidden pin 1 [+VRef, Power input, Line]
+    @(1025 mils, 4125 mils): Label 'VREF'
+
+***** Sheet /PCIexpress_connector/sheet5D761043/
+
+***** Sheet /POWER/Power_stage1/
+
+***** Sheet /PCIexpress_connector/sheet5D76CFBD/
+
+***** Sheet /POWER/Power_stage2/
+
+***** Sheet /PCIexpress_connector/decap/
+
+***** Sheet /POWER/Power_stage0/
+[multiple_net_names]: Both FCCM and FFCM are attached to the same items; FCCM will be used in the netlist
+    ; warning
+    @(4150 mils, 3850 mils): Label 'FCCM'
+    @(3850 mils, 3850 mils): Hierarchical Label 'FFCM'
+
+***** Sheet /PCIexpress_connector/sheet5DB8E955/
+
+***** Sheet /POWER/Power_stage3/
+
+***** Sheet /PCIexpress_connector/sheet5DBA124D/
+
+***** Sheet /POWER/Power_stage4/
+
+***** Sheet /PCIexpress_connector/sheet5DBB4496/
+
+***** Sheet /POWER/Power_stage5/
+
+***** Sheet /BM1370_chain/
+
+***** Sheet /BM1370_chain/BM1370-1/
+
+***** Sheet /BM1370_chain/BM1370-2/
+
+***** Sheet /BM1370_chain/BM1370-3/
+
+***** Sheet /BM1370_chain/BM1370-4/
+
+***** Sheet /BM1370_chain/BM1370-5/
+
+***** Sheet /BM1370_chain/BM1370-6/
+
+***** Sheet /BM1370_chain/BM1370-7/
+
+***** Sheet /BM1370_chain/BM1370-8/
+
+***** Sheet /BM1370_chain/BM1370-9/
+
+***** Sheet /BM1370_chain/BM1370-10/
+
+***** Sheet /BM1370_chain/BM1370-11/
+
+***** Sheet /BM1370_chain/BM1370-12/
+
+***** Sheet /FAN/
+
+***** Sheet /USB_to_UART/
+[multiple_net_names]: Both +1V8 and VCORE are attached to the same items; +1V8 will be used in the netlist
+    ; warning
+    @(6325 mils, 4000 mils): Symbol #PWR0483 Hidden pin 1 [+1V8, Power input, Line]
+    @(7275 mils, 4200 mils): Symbol U31 Hidden pin 12 [VCORE, Power input, Line]
+[multiple_net_names]: Both +3V3 and VCCIO are attached to the same items; +3V3 will be used in the netlist
+    ; warning
+    @(12225 mils, 4400 mils): Symbol #PWR0487 Pin 1 [Power input, Line]
+    @(7625 mils, 4200 mils): Symbol U31 Hidden pin 31 [VCCIO, Power input, Line]
+
+ ** ERC messages: 152  Errors 0  Warnings 152
