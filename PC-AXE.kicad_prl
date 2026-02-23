@@ -54,7 +54,7 @@
   },
   "git": {
     "repo_password": "",
-    "repo_type": "",
+    "repo_type": "https",
     "repo_username": "",
     "ssh_key": ""
   },
