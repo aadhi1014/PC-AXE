@@ -767,6 +767,16 @@
 		)
 		(uuid "7f32bde9-8d96-4a72-b447-7efccab3ae15")
 	)
+	(label "LDO_EN"
+		(at 166.37 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ffafa11-c8a0-4944-9745-f122d5e77164")
+	)
 	(label "PET3_P"
 		(at 59.69 77.47 0)
 		(effects
@@ -1984,6 +1994,16 @@
 		(pin "VR_READY" input
 			(at 166.37 37.465 180)
 			(uuid "a8c4eb4c-f62b-4928-a5d0-324cbec0368d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LDO_EN" output
+			(at 166.37 33.02 180)
+			(uuid "f0dec6b0-1b5b-4f73-8141-686419806b9f")
 			(effects
 				(font
 					(size 1.27 1.27)

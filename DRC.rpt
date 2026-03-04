@@ -1,0 +1,13 @@
+** Drc report for PC-AXE.kicad_pcb **
+** Created on 2026-03-03T19:38:20-0500 **
+
+** Found 1 DRC violations **
+[lib_footprint_mismatch]: Footprint 'PCIexpress_x4' does not match copy in library 'PCIexpress'.
+    Local override; warning (excluded)
+    @(126.4817 mm, 203.6054 mm): Footprint J2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

@@ -3047,10 +3047,6 @@
 		(uuid "09f54a61-5cfa-4036-a316-e72bbf61232e")
 	)
 	(no_connect
-		(at 208.915 129.54)
-		(uuid "23f31f60-bdcb-485b-8fff-da9645999f95")
-	)
-	(no_connect
 		(at 208.915 203.2)
 		(uuid "273b178f-0801-4cd0-90b3-5bd13cc1169f")
 	)
@@ -4724,6 +4720,17 @@
 			(justify left)
 		)
 		(uuid "1201548b-af47-4f16-b10b-7cfe8fa44dae")
+	)
+	(hierarchical_label "LDO_EN"
+		(shape output)
+		(at 208.915 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26b6483b-bf25-466f-a91c-5c6e2733ad23")
 	)
 	(hierarchical_label "VR_ENABLE"
 		(shape output)
